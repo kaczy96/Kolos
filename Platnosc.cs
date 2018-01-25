@@ -8,7 +8,7 @@ namespace Kolos
 {
     class Platnosc
     {
-        void zaplacPrzelewem()
+        public void zaplacPrzelewem()
         {
             Console.WriteLine("Dane do przelewu");
             Przelew przelew = new Przelew();
@@ -16,7 +16,7 @@ namespace Kolos
             Console.WriteLine("Tytuł przelewu: {0}", przelew.tytulPrzelewu);
         }
 
-        void wezKredyt()
+        public void wezKredyt()
         {
             Kredyt kredyt = new Kredyt();
             Console.WriteLine("Nazwa banku: {0}", kredyt.bank);
@@ -24,7 +24,7 @@ namespace Kolos
             Console.WriteLine("Oprocentowanie roczne: {0}",kredyt.oprocentowanieRoczne);
         }
 
-        void gotowka()
+        public void gotowka()
         {
             Console.WriteLine("Zaplacono gotówką");
         }

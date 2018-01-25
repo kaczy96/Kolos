@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Gotowka.cs" />
     <Compile Include="Kredyt.cs" />
+    <Compile Include="Main.cs" />
     <Compile Include="Platnosc.cs" />
     <Compile Include="PozycjaZamowienia.cs" />
     <Compile Include="Przelew.cs" />
