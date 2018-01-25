@@ -8,5 +8,6 @@ namespace Kolos
 {
     class Gotowka
     {
+        
     }
 }

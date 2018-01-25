@@ -20,5 +20,11 @@ namespace Kolos
             Console.WriteLine("Cena Netto: {0}", Zamowienie.obliczNetto());
         }
 
+        public void wartoscPodatku()
+        {
+            PozycjaZamowienia Zamowienie = new PozycjaZamowienia();
+            Console.WriteLine("Wartość podatku {0}", );
+        }
+
     }
 }

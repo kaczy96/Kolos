@@ -42,7 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Gotowka.cs" />
+    <Compile Include="Kredyt.cs" />
+    <Compile Include="Platnosc.cs" />
+    <Compile Include="PozycjaZamowienia.cs" />
+    <Compile Include="Przelew.cs" />
+    <Compile Include="Zamowieniee.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
