@@ -8,5 +8,7 @@ namespace Kolos
 {
     class Przelew
     {
+        public string kontoBankowe { get; set; }
+        public string tytulPrzelewu { get; set; }
     }
 }
